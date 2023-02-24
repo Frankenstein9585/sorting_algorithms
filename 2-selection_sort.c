@@ -19,7 +19,7 @@ void selection_sort(int *array, size_t size)
 		for (j = i + 1; j < size; j++)
 		{
 			/* find the smallest element of the unsorted array */
-			if (array[j] < array[i])
+			if (array[j] < array[min])
 				/* update min to hold the index of the smallest element */
 				min = j;
 		}
